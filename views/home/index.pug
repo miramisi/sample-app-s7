@@ -1,1 +1,19 @@
-p some content
+
+include ../head.pug
+body
+    .container.mt-5
+      h1 List
+      table.table.table-responsive.table-hover.table-striped.table-dark
+        thead
+          tr
+            th(scope="col") ID
+            th(scope="col") Event Name
+            th(scope="col") Event DateTime
+            th(scope="col") Venue
+            th(scope="col") Contact Phone
+            th(scope="col") Seat
+            th(scope="col") Actions
+        tbody
+          tr
+            td 1
+            td Example Event Name 1
